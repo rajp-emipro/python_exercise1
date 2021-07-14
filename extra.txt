@@ -1,0 +1,158 @@
+1}{Q-8}}Write a Python program to test whether a passed letter is a vowel or not.
+                         and also {of question 8}
+
+	How many vowels are there in string and count each
+
+
+
+2}{Q-10}Take 3 global dictionaries as follows. Define a function, which takes those 3 dictionaries and concatenate them.
+    dic1={1:10, 2:20}
+    dic2={3:30, 4:40}
+    dic3={5:50,6:60}
+    Output should be - {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+                    and also {of question 10}
+
+	In a dictionary if the key is same and value is differnt and if we update what will be the output?
+
+
+3}{Q-12}Write a Python program to remove the first item from a specified list.
+color = ["Red", "Black", "Green", "White", "Orange"]
+num = [255,3678,95,158,759,157]
+
+                    and also {of question 12}
+
+	Try pop method using for loop if possible...
+
+
+
+4}{Q-14}Write a Python program to count the number
+occurrence of a specific character in a string.
+
+                and also {of question 14}
+
+	Take a String,count repeatition of each word in that string
+
+
+
+5}{Q-17}Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.
+Test Data :
+color_list_1 = set(["White", "Black", "Red"])
+color_list_2 = set(["Red", "Green"])
+Expected Output :
+{'Black', 'White'}
+
+                    and also {of question 17}
+
+try to findout the common elements from both the set
+
+
+
+6}{Q-19}Write a Python program to concatenate all elements in a list
+into a string and return it.
+
+
+            and also {of question 19}
+
+Try to solve it in 1 line. using list comprehension
+
+
+
+7}{Q-22}Write a Python program to sum all the items in a list.
+            and also {of question 22}
+
+Try to solve it as short as possible using list comprehension
+
+8}{Q-23}Write a Python program to multiply all the items in a list
+        and also {of question 23}
+
+Try to solve it as short as possible
+
+
+
+9}{Q-24}Write a Python program to count the number of strings
+in a list where the string length is 2 or more and the
+first and last character are the same from a given list of strings.
+
+            and also {of question 24}
+
+Try to solve it using lambda,filter function
+
+
+
+10}{Q-25}Write a Python program to clone or copy a list.
+        and also {of question 25} 
+
+after using copy method if we change in list1 would list2 be affected or not
+
+
+
+11}{Q-30}Define a dictionary, which is having keys as subject name
+such as maths, sci etc. and marks as values. Sum all the marks. and print the total.
+
+                    and also {of question 30}
+
+Try to solve it using shorter method
+
+
+
+12}{Q-31}students = {'Aex':{'class':'V', 'roll_id':2}, 'Puja':{'class':'V',’roll_id':3}}
+Using the above dictionary, print the following output.
+Aex
+class : V
+roll_id : 2
+Puja
+class : V
+roll_id : 3
+
+                        and also {of question 31}
+
+can we use items instead of info in 2nd loop?
+according to below mentioned solution?
+for name,info in students.items():      #1st loop
+    print(name)
+    for key in info:                    #2nd loop
+        print(f"{key}:{info[key]}")
+
+
+
+13}{Q-32}Write a Python program to match key values in two dictionaries.
+Sample dictionary: {'key1': 1, 'key2': 3, 'key3': 2}, {'key1': 1, 'key2': 2}
+Expected output: key1: 1 is present in both x and y
+
+                        and also {of question 32}
+
+
+check if we can directly check by comparing 1st dictionary's key and 2nd dictionary's key (if 2 for loops used)
+
+
+
+14}{Q-35}# Write a Python program to filter the height and width of students,
+# which are stored in a dictionary. Height >= 6ft and Weight>= 70kg:
+#
+# a}Original Dictionary: {'Cierra Vega': (6.2, 70), 'Alden Cantrell': (5.9, 65), 'Kierra Gentry': (6.0, 68), 'Pierre Cox': (5.8, 66)}
+#
+# b}Output : {'Cierra Vega': (6.2, 70)}
+
+                    and also
+Try using lambda with filter function
+
+
+
+15}{Q-37}Write a program having classes as Product, Order, Customer
+Do appropriate inheritance of the above classes
+Write appropriate methods / constructors in each classes
+Following output is expected
+Order No : SO001
+Customer : Sanjay Patel
+Customer Email : sanjay@dummy.com
+Name of the product is 'Pencil'
+Product Qty is : 15
+Unit Price is 20
+Order total is : 300
+
+            Correct it if logically incorrect.
+
+
+
+Rewrite the code and logically correct
